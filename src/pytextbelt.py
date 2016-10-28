@@ -10,8 +10,8 @@ class Textbelt(object):
     # API URL
     API_URL = 'http://textbelt.com/'
 
-    # The Recepient Class
-    class Recepient(object):
+    # The Recipient Class
+    class Recipient(object):
 
         # Available Regions
         REGIONS = { "us": "text", "ca": "canada", "intl": "intl" }
@@ -35,8 +35,8 @@ class Textbelt(object):
         
         @region.setter
         def region(self, region):
-            assert region in Textbelt.Recepient.REGIONS, "Bad Region Code"
-            self._region = Textbelt.Recepient.REGIONS[region]
+            assert region in Textbelt.Recipient.REGIONS, "Bad Region Code"
+            self._region = Textbelt.Recipient.REGIONS[region]
 
         @property
         def tag(self):
