@@ -2,7 +2,7 @@
 Python Wrapper for Textbelt SMS API.
 
 ## Installation ##
-This module is not currently available on any package manager, So just clone this repo and do ```import pytextbelt```.
+This module is not currently available on any package index, So just clone this repo and do ```import pytextbelt```.
 
 ## Usage ##
 Example:
